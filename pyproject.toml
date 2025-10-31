@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "project1-masenkova-olesya-m25-55"
+version = "0.1.0"
+description = ""
+authors = ["Olesya Masenkova <lesamasenkova@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
