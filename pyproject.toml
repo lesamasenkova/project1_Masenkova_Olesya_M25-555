@@ -4,10 +4,15 @@ version = "0.1.0"
 description = ""
 authors = ["Olesya Masenkova <lesamasenkova@gmail.com>"]
 readme = "README.md"
-
+packages = [
+     { include = "labyrinth_game" },
+ ]
+ 
 [tool.poetry.dependencies]
 python = "^3.10"
 
+[tool.poetry.scripts]
+project = "labyrinth_game.main:main"
 
 [build-system]
 requires = ["poetry-core"]
