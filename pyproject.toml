@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "project1-masenkova-olesya-m25-555"
+version = "0.1.0"
+description = ""
+authors = ["Olesya Masenkova <lesamasenkova@gmail.com>"]
+readme = "README.md"
+packages = [
+     { include = "labyrinth_game" },
+ ]
+ 
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+project = "labyrinth_game.main:main"	
