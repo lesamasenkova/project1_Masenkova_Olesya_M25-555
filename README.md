@@ -9,7 +9,7 @@
 ## Установка
 
 1. Клонируйте репозиторий:
-git clone https://github.com/username/project1_Masenkova_Olesya_M25-555.git
+git clone https://github.com/lesamasenkova/project1_Masenkova_Olesya_M25-555
 cd project1_Masenkova_Olesya_M25-555
 
 
