@@ -12,24 +12,17 @@
 git clone https://github.com/username/project1_Masenkova_Olesya_M25-555.git
 cd project1_Masenkova_Olesya_M25-555
 
-text
 
 2. Установите зависимости через Poetry:
 poetry install
-
-text
 
 ## Запуск
 
 Запустите игру командой:
 poetry run project
 
-text
-
 Или через make:
 make project
-
-text
 
 ## Как играть
 
@@ -49,10 +42,7 @@ text
 Найти ключ от комнаты с сокровищами, пройти через лабиринт, решить загадки и открыть сундук с сокровищем.
 
 ## Демонстрация игрового процесса
-
-[![asciicast](https://asciinema.org/a/XXXXXX.svg)](https://asciinema.org/a/XXXXXX)
-
-*Замените XXXXXX на ID вашей asciinema-записи.*
+https://asciinema.org/connect/6c040937-bcae-47f2-9362-965b8ad41c96
 
 ## Структура проекта
 
@@ -67,7 +57,6 @@ project1_Masenkova_Olesya_M25-555/
 ├── README.md # Этот файл
 └── .gitignore # Исключения для Git
 
-text
 
 ## Разработка
 
@@ -75,13 +64,9 @@ text
 
 poetry run ruff check .
 
-text
-
 ### Сборка пакета:
 
 poetry build
-
-text
 
 ## Технологии
 
@@ -93,8 +78,4 @@ text
 
 **Olesya Masenkova**  
 Email: lesamasenkova@gmail.com
-
-## Asciinema
-
-См. инструкцию по записи на https://asciinema.org и вставьте ссылку в раздел “Демонстрация игрового процесса”.
 
