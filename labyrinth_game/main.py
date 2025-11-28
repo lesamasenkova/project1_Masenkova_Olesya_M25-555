@@ -50,12 +50,12 @@ def process_command(game_state, command):
         case "inventory" | "inv":
             show_inventory(game_state)
         case "solve":
-            if game_state['current_room'] == "treasure_room":
+            if game_state["current_room"] == "treasure_room":
                 attempt_open_treasure(game_state)
             else:
                 solve_puzzle(game_state)
         case "quit" | "exit":
-            game_state['game_over'] = True
+            game_state["game_over"] = True
             print("Игра завершена.")
         case "help":
             show_help(COMMANDS)
@@ -66,20 +66,18 @@ def process_command(game_state, command):
 def main():
     """Точка входа в игру. Основной игровой цикл."""
     game_state = {
-        'current_room': 'entrance',
-        'player_inventory': [],
-        'steps': 0,
-        'game_over': False,
+        "current_room": "entrance",
+        "player_inventory": [],
+        "steps": 0,
+        "game_over": False,
     }
     print("Добро пожаловать в Лабиринт сокровищ!")
     describe_current_room(game_state)
-    while not game_state['game_over']:
+    while not game_state["game_over"]:
         command = get_input("> ")
         process_command(game_state, command)
 
 
 if __name__ == "__main__":
     main()
-
-
 
